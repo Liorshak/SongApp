@@ -49,5 +49,8 @@
     "ts-node": "^10.4.0",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-plugin-import": "^2.25.3"
+  },
+  "prisma":{
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   }
 }
