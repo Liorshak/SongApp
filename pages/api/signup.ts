@@ -28,7 +28,7 @@ export default async (req: NextApiRequest, res: NextApiResponse)=>{
         id:user.id,
         time: Date.now(),
 
-    }, "hello",
+    }, "hello",  /// to put the key in .env
     {expiresIn:'8h'}
     )
 
