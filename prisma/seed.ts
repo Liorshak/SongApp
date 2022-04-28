@@ -34,7 +34,7 @@ const user = await prisma.user.upsert({
     email: "user@test.com",
     password: bcrypt.hashSync('something',salt),
     firstName:"Lior",
-    lastName:"Shaked",
+    lastName:"Shaked"
   },
 });
 
